@@ -1,7 +1,7 @@
 version: '3'
 services:
   jenkins:
-    image: practica/jenkins:latest
+    image: jenkins/jenkins
     ports:
       - 8080:8080
       - 50000:50000
