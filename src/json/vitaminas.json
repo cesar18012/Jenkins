@@ -1,0 +1,84 @@
+[
+    {
+      "id": "Vitamina C",
+      "imagen": "/img/vitaminas/vitac1.png",
+      "imagesmall": "/img/vitaminas/vitac1small.png",
+      "cardTitle": "Multivitamínico Diario",
+      "descripcion": "Una combinación de siete vitaminas  en comprimido.",
+      "boton": "Agregar al carrito",
+      "precio":"20$"
+    },
+    {
+        "id": "Vitamina C",
+        "imagen": "/img/vitaminas/vitac2.png",
+        "imagesmall": "/img/vitaminas/vitac2small.png",
+        "cardTitle": "Gut Gummies",
+        "descripcion": "Mezcla de gominolas sabor frutos del bosque con cultivos vivos añadidos.",
+        "boton": "Agregar al carrito",
+        "precio":"15$"
+    },
+    {
+        "id": "Vitamina C",
+        "imagen": "/img/vitaminas/vitac3.png",
+        "imagesmall": "/img/vitaminas/vitac3small.png",
+        "cardTitle": "Gominolas de Vinagre",
+        "descripcion": "Aquí empieza tu rutina detox diaria.",
+        "boton": "Agregar al carrito",
+        "precio":"15$"
+    },
+    {
+        "id": "Vitamina D",
+        "imagen": "/img/vitaminas/vitad1.png",
+        "imagesmall": "/img/vitaminas/vitad1small.png",
+        "cardTitle": "Gominolas de vitamina",
+        "descripcion": "Fuente de vitamina para contribuir al funcionamiento del sistema inmunitario.",
+        "boton": "Agregar al carrito",
+        "precio":"15$"
+    },
+    {
+        "id": "Vitamina D",
+        "imagen": "/img/vitaminas/vitad2.png",
+        "imagesmall": "/img/vitaminas/vitad2small.png",
+        "cardTitle": "Vitamina D3 en Cápsulas",
+        "descripcion": "La vitamina del sol para el bienestar diario, sin importar qué tiempo haga.",
+        "boton": "Agregar al carrito",
+        "precio":"20$"
+    },
+    {
+        "id": "Vitamina D",
+        "imagen": "/img/vitaminas/vitad3.png",
+        "imagesmall": "/img/vitaminas/vitad3small.png",
+        "cardTitle": "Vitamina D3 y Curcumina",
+        "descripcion": "Una mezcla única de curcumina y vitamina D, para un práctico impulso diario.",
+        "boton": "Agregar al carrito",
+        "precio":"20$"
+    },
+    {
+        "id": "Vitamina Liquida",
+        "imagen": "/img/vitaminas/vitaliqui1.png",
+        "imagesmall": "/img/vitaminas/vitaliqui1small.png",
+        "cardTitle": "Monodosis Colágeno Líquido",
+        "descripcion": "Fórmula todo en uno con sabor a fruta con colágeno y vitaminas.",
+        "boton": "Agregar al carrito",
+        "precio":"3$"
+    },
+    {
+        "id": "Vitamina Liquida",
+        "imagen": "/img/vitaminas/vitaliqui2.png",
+        "imagesmall": "/img/vitaminas/vitaliqui2small.png",
+        "cardTitle": "Beauty Collagen Stick Packs",
+        "descripcion": "Una deliciosa dosis diaria de colágeno hidrolizado y vitaminas.",
+        "boton": "Agregar al carrito",
+        "precio":"15$"
+    },
+    {
+        "id": "Vitamina Liquida",
+        "imagen": "/img/vitaminas/vitaliqui3.png",
+        "imagesmall": "/img/vitaminas/vitaliqui3small.png",
+        "cardTitle": "Pre-Workout Shot",
+        "descripcion": "La alternativa a productos tradicionales para antes del entrenamiento.",
+        "boton": "Agregar al carrito",
+        "precio":"2$"
+    }
+  ]
+  

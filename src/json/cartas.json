@@ -1,0 +1,29 @@
+[
+    {
+        "imagen": "/img/cartas/protefresa.png",
+        "imagesmall": "/img/cartas/protefresasmall.png",
+        "cardTitle": "Proteína de Fresa",
+        "cardText": "La mejor proteina del mercado.",
+        "buttonText": "Añadir a la cesta",
+        "cardFooter": "GYMBOOST &#128170",
+        "precio":"40"
+    },
+    {
+        "imagen": "/img/cartas/barritabrownie.png",
+        "imagesmall": "/img/cartas/barritabrowniesmall.png",
+        "cardTitle": "Barrita de Brownie",
+        "cardText": "Barritas proteicas con sabor a brownie.",
+        "buttonText": "Añadir a la cesta",
+        "cardFooter": "GYMBOOST &#128170",
+        "precio":"15"
+    },
+    {
+        "imagen": "/img/cartas/creatinacreapure.png",
+        "imagesmall": "/img/cartas/creatinacreapuresmall.png",
+        "cardTitle": "Creatina Creapure",
+        "cardText": "Creatina Creapure para un mejor rendimiento.",
+        "buttonText": "Añadir a la cesta",
+        "cardFooter": "GYMBOOST &#128170",
+        "precio":"30"
+    }
+]

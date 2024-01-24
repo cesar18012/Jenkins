@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/proteina.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/js/vitaminas.js"></script>
+    <script src="/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>GymBoost</title>
+</head>
+
+<body>
+    <header>
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-6 col-md-1">
+                    <a href="index.html"><img class="logo" src="/img/inicio/logo.png"></a>
+                </div>
+                <div class="col-6 col-md-4 offset-md-3 mt-3 mt-md-0">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar productos"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+                <div class="col-6 col-md-2 mt-3 mt-md-0">
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img class="menu" src="/img/inicio/menu1.png">
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="proteina.html">Proteina</a></li>
+                            <li><a class="dropdown-item" href="creatina.html">Creatina</a></li>
+                            <li><a class="dropdown-item" href="vitaminas.html">Vitaminas</a></li>
+                            <li><a class="dropdown-item" href="snacks.html">Snacks</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-6 col-md-2 mt-3 mt-md-0">
+                    <a href="/html/carrito.html"><img class="carrito" src="/img/inicio/carro-de-la-compra.png"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+<div class="background1">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-3">
+          <h2>Selecciona Producto</h2>
+          <div class="dropdown">
+            <select class="btn btn-primary" id="dropdownMenuLink">
+                <option value="seleccionar">Selecciona</option>
+              <!-- Opciones del menú desplegable se llenarán dinámicamente -->
+            </select>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <h2>Vitaminas</h2>
+          <p class="font-italic mb-4 text-white">Lista de nuestros productos:</p>
+          <!-- Agrega el contenedor para las cartas de productos -->
+          <div class="row pb-5 mb-4" id="productos-container">
+            <!-- Las cartas de productos se agregarán aquí dinámicamente -->
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <footer class="bg-link background1">
+        <!-- Grid container -->
+        <div class="container p-4">
+
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
+                    role="button "><i class="fab fa-facebook-f"></i><img src="/img/redes/facebook.png"></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                        class="fab fa-twitter"></i><img src="/img/redes/twitter.png"></a>
+
+                <!-- Google -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
+                        class="fab fa-google"></i><img src="/img/redes/gmail.png"></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                        class="fab fa-instagram"></i><img src="/img/redes/instagram.png"></a>
+            </section>
+            <!-- Section: Social media -->
+
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                Regístrate para recibir nuestro boletín
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form5Example2" class="form-control" />
+                                <label class="form-label" for="form5Example2">Dirección de correo</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-primary mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    ¡Impulsa tu rendimiento con nuestra gama premium de suplementos deportivos! En GYMBOOST,
+                    nos comprometemos a proporcionar productos de alta calidad diseñados para potenciar tu entrenamiento
+                    y
+                    alcanzar tus metas fitness. Descubre la excelencia en cada fórmula, respaldada por la ciencia y la
+                    dedicación al bienestar.
+                    ¡Eleva tu juego con nosotros y alcanza nuevas alturas en tu viaje fitness!
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024 Copyright:
+            <a href="/html/inicio.html" style="text-decoration: none;">GYMBOOST</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+</body>
+
+</html>

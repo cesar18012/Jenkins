@@ -1,0 +1,58 @@
+[
+    {
+      "id": "Polvo",
+      "imagen": "/img/creatina/polvo1.png",
+      "imagesmall": "/img/creatina/polvo1small.png",
+      "cardTitle": "Creatina Monohidra",
+      "descripcion": "Probado científicamente que potencia tu rendimiento.",
+      "boton": "Agregar al carrito",
+      "precio":"25$"
+    },
+    {
+        "id": "Polvo",
+        "imagen": "/img/creatina/polvo2.png",
+        "imagesmall": "/img/creatina/polvo2small.png",
+        "cardTitle": "Creatina Creapure",
+        "descripcion": "Nuestra forma más pura de monohidrato de creatina.",
+        "boton": "Agregar al carrito",
+        "precio":"30$"
+    },
+    {
+        "id": "Polvo",
+        "imagen": "/img/creatina/polvo3.png",
+        "imagesmall": "/img/creatina/polvo3small.png",
+        "cardTitle": "Creatina HSN",
+        "descripcion": "Creatina de la mano de la marca HSN.",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
+    },
+    {
+        "id": "Capsula",
+        "imagen": "/img/creatina/capsula1.png",
+        "imagesmall": "/img/creatina/capsula1small.png",
+        "cardTitle": "Creatina Creapure",
+        "descripcion": "Perfecto para los que quieren aumentar su rendimiento .",
+        "boton": "Agregar al carrito",
+        "precio":"10$"
+    },
+    {
+        "id": "Capsula",
+        "imagen": "/img/creatina/capsula2.png",
+        "imagesmall": "/img/creatina/capsula2small.png",
+        "cardTitle": "Creatina Micronizada",
+        "descripcion": "Nuestras cápsulas de monohidrato  más puras.",
+        "boton": "Agregar al carrito",
+        "precio":"15$"
+    },
+    {
+        "id": "Capsula",
+        "imagen": "/img/creatina/capsula3.png",
+        "imagesmall": "/img/creatina/capsula3small.png",
+        "cardTitle": "Creatina Kre-Alkalyn",
+        "descripcion": "Creatina con pH modificado para ayudarte a conseguir tus metas.",
+        "boton": "Agregar al carrito",
+        "precio":"15$"
+    }
+    
+  ]
+  

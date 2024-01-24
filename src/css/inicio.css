@@ -1,0 +1,72 @@
+header {
+    background-color: rgb(5, 22, 40);
+
+
+}
+
+.logo {
+    width: 9rem;
+    height: 9rem;
+}
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.carrito {
+    margin-top: 2rem;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+}
+
+.carrusel img {
+    width: 100%;
+    height: 20rem;
+}
+
+.recomendados {
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.background {
+    background: rgb(19, 55, 62);
+    background: linear-gradient(90deg, rgba(19, 55, 62, 1) 0%, rgba(2, 0, 36, 1) 43%, rgba(36, 95, 107, 1) 100%);
+   
+}
+.background1 {
+    background: rgb(19, 55, 62);
+    background: linear-gradient(90deg, rgba(19, 55, 62, 1) 0%, rgba(2, 0, 36, 1) 43%, rgba(36, 95, 107, 1) 100%);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(118, 189, 255);
+}
+
+
+/* Media query para ajustar el tamaño del carrusel en pantallas más pequeñas */
+@media (max-width: 767px) {
+    header {
+        height: 14, 5rem;
+    }
+
+    .carrusel img {
+        height: 15rem;
+    }
+   .cartas{
+    width: 10rem;
+    height:10rem ;
+   }
+   .recomendados{
+    font-size: xx-large;
+   }
+   
+}
