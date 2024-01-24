@@ -1,32 +1,23 @@
-# Utiliza una imagen de Jenkins basada en la imagen oficial de Jenkins con soporte para Docker
-FROM jenkins/jenkins:latest
+FROM jenkins/jenkins:2.426.2-jdk17
 
-# Cambia al usuario root para instalar herramientas adicionales
 USER root
+RUN apt-get update && apt-get install -y lsb-release unzip
 
-# Instala Docker dentro del contenedor Jenkins para que pueda interactuar con Docker en el host
-RUN apt-get update && \
-    apt-get install -y apt-transport-https \
-                       ca-certificates \
-                       curl \
-                       gnupg-agent \
-                       software-properties-common && \
-    curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - && \
-    add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable" && \
-    apt-get update && \
-    apt-get install -y docker-ce docker-ce-cli containerd.io && \
-    usermod -aG docker jenkins
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+RUN unzip awscliv2.zip
+RUN ./aws/install
 
-# Cambia de nuevo al usuario jenkins
+RUN curl -fsSLo /usr/share/keyrings/docker-archive-keyring.asc \
+  https://download.docker.com/linux/debian/gpg
+RUN echo "deb [arch=$(dpkg --print-architecture) \
+  signed-by=/usr/share/keyrings/docker-archive-keyring.asc] \
+  https://download.docker.com/linux/debian \
+  $(lsb_release -cs) stable" > /etc/apt/sources.list.d/docker.list
+
+#RUN apt-get update && apt-get install -y docker-ce-cli
+RUN apt-get update -qq && apt-get -y install docker-ce
+
+RUN echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+RUN usermod -aG docker jenkins
 USER jenkins
-
-# Instala los plugins necesarios para construir y desplegar aplicaciones
-RUN /usr/local/bin/install-plugins.sh \
-    git \
-    docker-plugin \
-    pipeline \
-    blueocean
-
-# Define el directorio de trabajo
-WORKDIR /var/jenkins_home
-
